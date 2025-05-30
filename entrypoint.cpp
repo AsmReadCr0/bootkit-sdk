@@ -1,7 +1,5 @@
 #include <iostream>
 #include "communication/edk.hpp"
-#define LocalPlayer  0x23e7ff8
-#define ENTITYLSIT  0x1f14e08
 
 int main()
 {
