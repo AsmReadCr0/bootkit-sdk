@@ -2,6 +2,12 @@
 - minimalistic uefi backdoor injecting payload before OS boot to achieve kernel mode execution
 
 # features
+- read/write protected process memory
+- get eprocess
+- get encrypted CR3 register for physical memory reading
+- get image base address
+
+# about
 - patches GetVariable with payload
 - uses **T**hread **E**nviromental **B**lock to store and read data. (**TEB**)
 - able to call any kernel function
